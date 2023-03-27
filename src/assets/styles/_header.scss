@@ -18,7 +18,18 @@
         color: var(--title-color);
         font-weight: var(--font-medium);
     }
-
+    .nav__logo {
+        font-family: "Lobster", cursive;
+        font-size: 24px;
+        letter-spacing: 0.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            font-size: 32px;
+            margin-right: 0.60rem;
+        }
+    }
     .nav__list {
         display: flex;
         column-gap: 2rem;

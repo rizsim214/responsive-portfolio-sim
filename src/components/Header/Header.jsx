@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-
 const Header = () => {
     // Toggle Menu
     const [Toggle, setToggle] = useState(false);
@@ -10,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
         <nav className="nav container">
-            <a href="/" className="nav__logo">Michael</a>
+            <a href="/" className="nav__logo"><i class="uil uil-java-script"></i> LostDev</a>
 
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">

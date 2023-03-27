@@ -1,12 +1,18 @@
 import React from 'react'
-import Header from './Header/Header';
 import '../assets/styles/main.css';
+import Header from './Header/Header';
+import Home from './Home/Home';
+import About from './About/About';
 
 const App = () => {
   return (
-    <main className="App">
-        <Header />
-    </main>
+    <>
+      <Header />
+      <main className="main">
+          <Home />
+          <About />
+      </main>
+    </>
   )
 }
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,500;0,700;1,200;1,300;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import './header';
-
-
+@import './home';
+@import './about';
 :root {
     --header-height: 3rem;
 
@@ -10,8 +10,8 @@
 
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue),var(--sat), 20%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --title-color: #044d6df0;
+    --title-color-dark: #044d6d;
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
     --container-color: #fff;
@@ -137,6 +137,7 @@ img {
 .grid {
     display: grid;
     gap: 1.5rem;
+    grid-auto-flow: dense;
 }
 
 // Buttons
@@ -176,17 +177,37 @@ img {
     }
 
 }
-
+// Media Screen Queries
 @media screen and (max-width: 992px) {
     .container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
 }
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 0 var(--header-height) 0 !important;
+    }
+    .section {
+        padding: 2rem 0 4rem;
+    }
 
-@media screen and (max-width: 350px) {
+    .section__subtitle {
+        margin-bottom: var(--mb-3);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .button{
+        padding: 1rem 1.75rem !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
+   
+
 }
