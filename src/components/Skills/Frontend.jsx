@@ -9,7 +9,8 @@ const Frontend = () => {
         {icon: "uil uil-java-script", title: "JAVASCRIPT", level: "Intermediate" },
         {icon: "uil uil-react", title: "REACT JS", level: "Basic" },
         {icon: "fa-brands fa-bootstrap", title: "Boostrap 5", level: "Intermediate" },
-        {icon: "uil uil-github", title: "Git", level: "Intermediate" }
+        {icon: "uil uil-github", title: "Git", level: "Intermediate" },
+        {icon: "uil uil-github", title: "GitHub", level: "Intermediate" }
     ]
   return (
     <div className="skills__content">

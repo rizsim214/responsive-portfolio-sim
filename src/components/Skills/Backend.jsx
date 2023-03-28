@@ -1,14 +1,15 @@
 import React from 'react'
 
 const Backend = () => {
-
     const skills = [
         {icon: "fa-brands fa-php", title: "PHP", level: "Intermediate" },
         {icon: "fa-brands fa-node", title: "NODE JS", level: "Basics" },
-        {icon: "fa-regular fa-gem", title: "EXPRESS JS", level: "Basics" },
+        {icon: "uil uil-java-script", title: "EXPRESS JS", level: "Basics" },
         {icon: "fa-regular fa-gem", title: "RUBY", level: "Basics" },
-        {icon: "fa-solid fa-gem", title: "MYSQL", level: "Intermediate" },
+        {icon: "fa-solid fa-database", title: "MYSQL", level: "Intermediate" },
         {icon: "fa-brands fa-java", title: "JAVA", level: "Intermediate" },
+        {icon: "uil uil-docker", title: "DOCKER", level: "Basics" },
+        {icon: "fa-brands fa-aws", title: "AWS", level: "Basics" }
     ]
   return (
     <div className="skills__content">
