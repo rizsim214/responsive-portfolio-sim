@@ -8,6 +8,7 @@
 @import './testimonials';
 @import './contact';
 @import './footer';
+@import './scrollup';
 
 :root {
     --header-height: 3rem;
@@ -110,7 +111,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+.main {
+    position: relative;
+}
 // Reusable CSS classes
 
 .section {

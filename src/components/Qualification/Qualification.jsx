@@ -9,7 +9,7 @@ const Qualification = () => {
         console.log("clicked");
     }
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="portfolio">
         <h2 className="section__title">Qualifications</h2>
         <span className="section__subtitle">My Personal Journey</span>
 

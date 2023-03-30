@@ -822,6 +822,13 @@
 .contact .contact__container .contact__content .contact__form .contact__form-area textarea {
   resize: none;
 }
+.contact .contact__container .contact__content .contact__form .button {
+  -moz-column-gap: 0.4rem;
+       column-gap: 0.4rem;
+}
+.contact .contact__container .contact__content .contact__form .button i {
+  font-size: 1.125rem;
+}
 .contact .contact__container .contact__content .contact__form .contact__form-div {
   position: relative;
   margin-bottom: var(--mb-2);
@@ -936,6 +943,38 @@
     font-size: 1rem;
   }
 }
+.scrollup {
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+  background-color: var(--title-color);
+  opacity: 0.8;
+  padding: 0.8rem 1rem;
+  border-radius: 50%;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+}
+.scrollup .scrollup__icon {
+  color: var(--container-color);
+  font-size: 1.5rem;
+}
+.scrollup:hover {
+  background-color: var(--title-color-dark);
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .scrollup {
+    right: 1.5rem;
+    padding: 0.25rem 0.4rem;
+  }
+  .scrollup .scrollup__icon {
+    font-size: 1.25rem;
+  }
+}
 :root {
   --header-height: 3rem;
   --hue: 0;
@@ -1015,6 +1054,10 @@ button {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.main {
+  position: relative;
 }
 
 .section {

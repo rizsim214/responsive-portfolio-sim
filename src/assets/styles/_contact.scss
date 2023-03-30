@@ -69,6 +69,12 @@
                                 resize: none; 
                                 }
                         }
+                        .button{
+                            column-gap: 0.4rem;
+                            i {
+                                font-size: 1.125rem;
+                            }
+                        }
                         .contact__form-div {
                             position: relative;
                             margin-bottom: var(--mb-2);
