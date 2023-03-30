@@ -54,6 +54,11 @@
 .header .active-link,
 .header .nav__link:hover {
   color: var(--title-color-dark);
+  font-weight: var(--font-semi-bold);
+}
+
+.scroll-header {
+  box-shadow: 0 -1px 4px var(--title-color);
 }
 
 @media screen and (max-width: 768px) {
@@ -973,6 +978,16 @@
   }
   .scrollup .scrollup__icon {
     font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .show-scroll {
+    bottom: 4rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .scrollup {
+    right: 1rem;
   }
 }
 :root {
