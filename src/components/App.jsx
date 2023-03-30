@@ -7,6 +7,7 @@ import Skills from './Skills/Skills';
 import Services from './Services/Services';
 import Qualification from './Qualification/Qualification';
 import Testimonials from './Testimonials/Testimonials';
+import Contact from './Contact/Contact';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Services />
           <Qualification />
           <Testimonials />
+          <Contact />
       </main>
     </>
   )
